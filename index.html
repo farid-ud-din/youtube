@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube</title>
+    <link rel="icon" href="./images/fav y.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <ul>
+      <li>
+        <button class="menu">
+          <i class="bi bi-list" style="font-size: 25px; color: white"></i>
+        </button>
+      </li>
+      <li><img class="yt-f" src="./images/yt-f.png" alt="yt-f" /></li>
+      <li class="pk">PK</li>
+      <li class="search">
+        <form style="display: table; white-space: nowrap">
+          <input
+            type="text"
+            placeholder="Search"
+            size="60px "
+            style="margin: 0px; min-width: 550px; width: 65%"
+          />
+          <button type="submit" style="margin: 0px">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+      </li>
+      <li class="mic"><i class="bi bi-mic"></i></li>
+      <li class="cam"><i class="bi bi-camera-video"></i></li>
+      <li class="bell"><i class="bi bi-bell"></i></li>
+      <li class="profile"><i class="bi bi-person-circle"></i></li>
+    </ul>
+    <div class="content">
+      <nav class="d-none d-md-block">
+        <ul class="aside">
+          <li class="asitemh">
+            <i class="bi bi-house-door-fill" style="font-size: 18px"></i>
+            <p class="asitemt">Home</p>
+          </li>
+          <li class="asitem">
+            <i class="bbi bi-file-play" style="font-size: 18px"></i>
+            <p class="asitemt">Shorts</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-collection-play" style="font-size: 18px"></i>
+            <p class="asitemt">Subscriptions</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-vinyl" style="font-size: 18px"></i>
+            <p class="asitemt">Youtube music</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-music-note-list" style="font-size: 18px"></i>
+            <p class="asitemt">Library</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-clock-history" style="font-size: 18px"></i>
+            <p class="asitemt">History</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-play" style="font-size: 18px"></i>
+            <p class="asitemt">Your videos</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-clock" style="font-size: 18px"></i>
+            <p class="asitemt">Watch later</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-arrow-bar-down" style="font-size: 18px"></i>
+            <p class="asitemt">Downloads</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="i bi-hand-thumbs-up" style="font-size: 18px"></i>
+            <p class="asitemt">Liked videos</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-chevron-down" style="font-size: 18px"></i>
+            <p class="asitemt">Show more</p>
+          </li>
+          <p class="asitemti">Subscriptions</p>
+          <li class="asitem">
+            <i class="bi bi-xbox" style="font-size: 18px"></i>
+            <p class="asitemt">X-box</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-apple" style="font-size: 18px"></i>
+            <p class="asitemt">Apple</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-google" style="font-size: 18px"></i>
+            <p class="asitemt">Google</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-github" style="font-size: 18px"></i>
+            <p class="asitemt">Github</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-microsoft" style="font-size: 18px"></i>
+            <p class="asitemt">Microsoft</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-discord" style="font-size: 18px"></i>
+            <p class="asitemt">Discord</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="i bi-linkedin" style="font-size: 18px"></i>
+            <p class="asitemt">Linkedin</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-chevron-down" style="font-size: 18px"></i>
+            <p class="asitemt">Show 5 more</p>
+          </li>
+          <p class="asitemti">Explore</p>
+          <li class="asitem">
+            <i class="bbi bi-fire" style="font-size: 18px"></i>
+            <p class="asitemt">Trending</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-music-note" style="font-size: 18px"></i>
+            <p class="asitemt">Music</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-controller" style="font-size: 18px"></i>
+            <p class="asitemt">Gaming</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-newspaper" style="font-size: 18px"></i>
+            <p class="asitemt">News</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-trophy" style="font-size: 18px"></i>
+            <p class="asitemt">Sports</p>
+          </li>
+          <p class="asitemti">More from YouTube</p>
+          <li class="asitem">
+            <i class="bi bi-youtube" style="font-size: 18px"></i>
+            <p class="asitemt">YouTube Studio</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-youtube" style="font-size: 18px"></i>
+            <p class="asitemt">YouTube Music</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-youtube" style="font-size: 18px"></i>
+            <p class="asitemt">YouTube Kids</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-gear" style="font-size: 18px"></i>
+            <p class="asitemt">Setting</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-flag" style="font-size: 18px"></i>
+            <p class="asitemt">Report History</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-question-circle" style="font-size: 18px"></i>
+            <p class="asitemt">Help</p>
+          </li>
+          <br />
+          <li class="asitem">
+            <i class="bi bi-chat-left-text" style="font-size: 18px"></i>
+            <p class="asitemt">Send feedback</p>
+          </li>
+          <br />
+        </ul>
+        <p class="about">
+          About Press Copyright <br />
+          Contact us Creators <br />
+          Advertise Developers
+        </p>
+        <p class="about2">
+          Terms Privacy Policy & Safety<br />
+          How YouTube works<br />
+          Test new features
+        </p>
+        <p class="about3">© 2023 Google LLC</p>
+      </nav>
+      <main>
+        <div class="scrollmenu">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="#support">Support</a>
+          <a href="#blog">Blog</a>
+          <a href="#tools">Tools</a>
+          <a href="#base">Base</a>
+          <a href="#custom">Custom</a>
+          <a href="#more">More</a>
+          <a href="#logo">Logo</a>
+          <a href="#friends">Friends</a>
+          <a href="#partners">Partners</a>
+          <a href="#people">People</a>
+          <a href="#work">Work</a>
+          <a href="#support">Support</a>
+          <a href="#blog">Blog</a>
+          <a href="#tools">Tools</a>
+          <a href="#base">Base</a>
+          <a href="#custom">Custom</a>
+          <a href="#more">More</a>
+          <a href="#logo">Logo</a>
+          <a href="#friends">Friends</a>
+          <a href="#partners">Partners</a>
+          <a href="#people">People</a>
+          <a href="#work">Work</a>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="thumb-flex">
+              <div
+                class="thumb"
+                style="background-image: url(./images/thumbnail.png)"
+              ></div>
+              <div class="thumb-profile">
+                <i class="bi bi-person-circle" style="font-size: 30px"></i>
+                <div class="thumb-head-container">
+                  <div class="thumb-title">Some secrets you should know!</div>
+                  <div class="channel">
+                    Fun Facts <br />
+                    201K Views . 20 hours ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
